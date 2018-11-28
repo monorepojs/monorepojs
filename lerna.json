@@ -7,7 +7,7 @@
     "services/*"
   ],
   "command": {
-    "version": {
+    "publish": {
       "exact": true,
       "conventionalCommits": true,
       "message": "chore(release): publish [ci skip]"

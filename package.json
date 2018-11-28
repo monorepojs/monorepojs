@@ -1,0 +1,45 @@
+{
+  "private": true,
+  "name": "@monorepojs/core",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "services/*"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build --since master",
+    "build:all": "lerna run build",
+    "codecov": "echo \"TODO: implement codecov\"",
+    "commit": "yarn pre-commit && git-cz --no-verify",
+    "clean": "lerna clean --yes && rm -rf node_modules",
+    "deploy": "lerna run deploy --since master",
+    "lint": "lerna run lint --stream",
+    "pre-commit": "lerna run pre-commit --stream",
+    "release:publish": "lerna version --yes",
+    "release:stage": "lerna version --no-git-tag-version --no-push --yes",
+    "runner": "lerna-runner",
+    "test": "lerna run test",
+    "test:coverage": "lerna run test:coverage --stream --concurrency 1"
+  },
+  "repository": "https://github.com/monorepojs/monorepojs.git",
+  "author": "Jordan Carroll <jordanc@purecars.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "commitizen": "3.0.5",
+    "cz-conventional-changelog": "2.1.0",
+    "husky": "1.2.0",
+    "lerna": "3.5.0",
+    "lerna-runner": "0.0.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn pre-commit"
+    }
+  }
+}

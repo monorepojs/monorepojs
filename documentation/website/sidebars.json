@@ -1,0 +1,27 @@
+{
+  "docs": {
+    "Welcome": [
+      "overview",
+      "documentation-intro"
+    ],
+    "Getting Started": [
+      "getting-started",
+      "development/contributing",
+      "development/scripts"
+    ],
+    "Directory Structure": [
+      "directory-structure/directory-structure-overview"
+    ],
+    "Packages": [
+      "packages/monorepo-tools",
+      "packages/monorepo-scripts"
+    ],
+    "The Future": [
+      "roadmap"
+    ],
+    "Help": [
+      "faqs",
+      "gotchas"
+    ]
+  }
+}

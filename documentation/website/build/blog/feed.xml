@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Monorepo Blog</title>
+        <link>https://monorepo-documentation.firebaseapp.com/blog</link>
+        <description>The best place to stay up-to-date with the latest Monorepo news and events.</description>
+        <lastBuildDate>Tue, 23 Oct 2018 06:00:00 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>Monorepo Blog</title>
+            <url>https://monorepo-documentation.firebaseapp.com/img/monorepo-icon.svg</url>
+            <link>https://monorepo-documentation.firebaseapp.com/blog</link>
+        </image>
+        <copyright>Copyright © 2018 PureCars Labs</copyright>
+        <item>
+            <title><![CDATA[10/23/18 Decide On and Implement a Documentation Tool]]></title>
+            <link>https://monorepo-documentation.firebaseapp.com/blog/2018/10/23/created-docs.html</link>
+            <guid>https://monorepo-documentation.firebaseapp.com/blog/2018/10/23/created-docs.html</guid>
+            <pubDate>Tue, 23 Oct 2018 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>This is the first blog entry for the documentation for the Monorepo Boilerplate project that is currently in development. My first decision in creating the project is to start by outlining different documentation tools and deciding on which to move f...</p>]]></description>
+        </item>
+    </channel>
+</rss>

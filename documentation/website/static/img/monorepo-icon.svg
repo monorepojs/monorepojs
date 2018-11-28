@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 278 278" >
+   <g id="layer1" transform="translate(290 38)">
+      <g id="g1048">
+         <circle r="119" cy="101" cx="-151" id="path922" fill="#c3dfff" stroke-width="0"/>
+         <g transform="translate(-35 85)" id="g928">
+            <g transform="translate(1 -10)" id="g987">
+               <circle id="path971" cx="-116" cy="26" r="60" fill="#203653" stroke-width="0"/>
+               <g id="g978" transform="translate(-1 -15)">
+                  <g transform="translate(-1 88)" id="g969" fill="#4e86c6">
+                     <g id="g920" transform="matrix(.99837 0 0 .99837 9 -77)">
+                        <circle id="path817" cx="-172" cy="-21" r="40" stroke-width="0"/>
+                     </g>
+                     <circle id="path951" cx="-67" cy="-98" r="40" stroke-width="0"/>
+                  </g>
+               </g>
+               <g transform="translate(-1 87)" id="g1020">
+                  <g id="g1018" transform="translate(-1 88)" fill="#4e86c6">
+                     <g transform="matrix(.99837 0 0 .99837 9 -77)" id="g1014">
+                        <circle r="40" cy="-21" cx="-172" id="circle1012" stroke-width="0"/>
+                     </g>
+                     <circle r="40" cy="-98" cx="-67" id="circle1016" stroke-width="0"/>
+                  </g>
+               </g>
+            </g>
+         </g>
+      </g>
+   </g>
+</svg>

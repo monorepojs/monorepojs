@@ -1,3 +1,13 @@
+---
+
+<p align="center">
+    <b><font size="2">Warning</font></b>
+    <br />
+    This project is still in early development stages and by no means expected to be used for production and is highly subject to change. Use at your own risk.
+</p>
+
+---
+
 # MonorepoJS
 
 <p align="center">
@@ -12,4 +22,3 @@
     <a href="https://monorepo-documentation.firebaseapp.com/">Learn More</a>
 </p>
 
-**Warning:** This project is still in early development stages and by no means expected to be used for production and is highly subject to change. Use at your own risk.

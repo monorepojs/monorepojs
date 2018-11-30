@@ -73,7 +73,7 @@
     "pre-commit": "monorepo-tools pre-commit"
   },
   "optionalDependencies": {
-    "fsevents": "1.2.4"
+    "fsevents": "2.0.1"
   },
   "publishConfig": {
     "access": "public"

@@ -1,7 +1,6 @@
 'use strict'
 
 const registerRequireContextHook = require('babel-plugin-require-context-hook/register')
-require('@babel/polyfill')
 
 registerRequireContextHook()
 const requireContext = global.__requireContext

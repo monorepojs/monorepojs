@@ -318,7 +318,7 @@ module.exports = {
                 'babel-plugin-named-asset-import',
                 'babel-preset-react-app',
                 'react-dev-utils',
-                'react-scripts'
+                '@monorepojs/scripts'
               ]),
               // @remove-on-eject-end
               plugins: [
@@ -330,12 +330,6 @@ module.exports = {
                         ReactComponent: '@svgr/webpack?-prettier,-svgo![path]'
                       }
                     }
-                  }
-                ],
-                [
-                  require.resolve('@babel/plugin-proposal-class-properties'),
-                  {
-                    loose: true
                   }
                 ]
               ],
@@ -369,7 +363,7 @@ module.exports = {
                 'babel-plugin-named-asset-import',
                 'babel-preset-react-app',
                 'react-dev-utils',
-                'react-scripts'
+                '@monorepojs/scripts'
               ]),
               // @remove-on-eject-end
               // If an error happens in a package, it's possible to be

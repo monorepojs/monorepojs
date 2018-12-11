@@ -36,7 +36,8 @@ module.exports = (resolve, rootDir, isEjecting) => {
     setupFiles: [
       isEjecting
         ? 'react-app-polyfill/jsdom'
-        : require.resolve('react-app-polyfill/jsdom')
+        : require.resolve('react-app-polyfill/jsdom'),
+      resolve('config/jest/registerContext.js')
     ],
 
     setupTestFrameworkScriptFile: setupTestsFile,

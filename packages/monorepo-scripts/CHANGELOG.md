@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.1.0...@monorepojs/scripts@0.1.1) (2018-12-18)
+
+
+### Bug Fixes
+
+* test script ([c71096b](https://github.com/monorepojs/monorepojs/commit/c71096b))
+
+
+
+
+
 # 0.1.0 (2018-12-18)
 
 

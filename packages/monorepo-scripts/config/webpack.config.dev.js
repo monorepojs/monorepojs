@@ -163,7 +163,7 @@ module.exports = {
       // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
       'react-native': 'react-native-web',
       // TODO: explain this
-      ...paths.monorepoPackageAliases.dev
+      ...paths.monorepoPackageAliases
     },
     plugins: [
       // Adds support for installing with Plug'n'Play, leading to faster installs and adding
@@ -248,7 +248,7 @@ module.exports = {
                 'babel-plugin-named-asset-import',
                 'babel-preset-react-app',
                 'react-dev-utils',
-                'react-scripts'
+                '@monorepojs/scripts'
               ]),
               // @remove-on-eject-end
               plugins: [
@@ -295,7 +295,7 @@ module.exports = {
                 'babel-plugin-named-asset-import',
                 'babel-preset-react-app',
                 'react-dev-utils',
-                'react-scripts'
+                '@monorepojs/scripts'
               ]),
               // @remove-on-eject-end
               // If an error happens in a package, it's possible to be

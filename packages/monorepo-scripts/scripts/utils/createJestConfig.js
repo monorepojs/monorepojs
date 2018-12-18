@@ -36,7 +36,8 @@ module.exports = (resolve, rootDir, isEjecting) => {
     setupFiles: [
       isEjecting
         ? 'react-app-polyfill/jsdom'
-        : require.resolve('react-app-polyfill/jsdom')
+        : require.resolve('react-app-polyfill/jsdom'),
+      resolve('config/jest/registerContext.js')
     ],
 
     setupTestFrameworkScriptFile: setupTestsFile,
@@ -62,7 +63,7 @@ module.exports = (resolve, rootDir, isEjecting) => {
     moduleNameMapper: {
       '^react-native$': 'react-native-web',
       '^.+\\.module\\.(css|sass|scss)$': 'identity-obj-proxy',
-      ...paths.monorepoPackageAliases.test
+      ...paths.monorepoPackageAliases
     },
     moduleFileExtensions: [...paths.moduleFileExtensions, 'node'].filter(
       ext => !ext.includes('mjs')

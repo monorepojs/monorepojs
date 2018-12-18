@@ -2,7 +2,7 @@
   "name": "@monorepojs/tools",
   "version": "0.1.0",
   "dependencies": {
-    "babel-eslint": "9.0.0",
+    "babel-eslint": "10.0.1",
     "eslint": "5.10.0",
     "eslint-config-prettier": "3.3.0",
     "eslint-config-react-app": "3.0.5",

@@ -16,7 +16,7 @@
     "deploy": "lerna run deploy --since master",
     "lint": "lerna run lint --stream",
     "pre-commit": "lerna run pre-commit --stream",
-    "release:publish": "lerna version --yes",
+    "release:publish": "lerna publish --yes",
     "release:stage": "lerna version --no-git-tag-version --no-push --yes",
     "runner": "lerna-runner",
     "test": "lerna run test",

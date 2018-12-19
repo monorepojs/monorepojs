@@ -3,15 +3,53 @@ const fs = require('fs')
 const path = require('path')
 const findPkg = require('find-pkg')
 const globby = require('globby')
+const yaml = require('js-yaml')
 
 // Make sure any symlinks in the project folder are resolved:
 // https://github.com/facebook/create-react-app/issues/637
 const appDirectory = fs.realpathSync(process.cwd())
 
 const env = process.env.NODE_ENV
-const isEnvDevelopment = env === 'development'
-const isEnvProduction = env === 'production'
 const isEnvTest = env === 'test'
+
+const monorepoConfigDefaults = {
+  src: 'src',
+  lib: 'lib',
+  srcWorkspaces: []
+}
+
+const getMonorepoConfig = pkgPath => {
+  const { name, monorepoConfig: pkgMonorepoConfig } = JSON.parse(
+    fs.readFileSync(path.resolve(pkgPath, 'package.json'))
+  )
+  let monorepoConfig = pkgMonorepoConfig
+  if (monorepoConfig) {
+    console.log(`Using \`monorepoConfig\` from "${pkgPath}/package.json"`)
+  } else {
+    // Try to fallback to `.monorepo.yml`
+    try {
+      const monorepoConfigFile = yaml.safeLoad(
+        fs.readFileSync(path.resolve(pkgPath, '.monorepo.yml'), 'utf8')
+      )
+      monorepoConfig = Object.assign({}, monorepoConfig, monorepoConfigFile)
+    } catch (e) {
+      console.log(`Monorepo config not found at "${pkgPath}/.monorepo.yml"`)
+    }
+    if (monorepoConfig) {
+      console.log(`Using config file "${pkgPath}/.monorepo.yml"`)
+    } else {
+      throw new Error('Monorepo config not found!')
+    }
+  }
+  try {
+    const { env: envConfigMap = {}, ...baseConfig } = monorepoConfig
+    const envConfig = envConfigMap[env] || {}
+    monorepoConfig = Object.assign({}, baseConfig, envConfig)
+  } catch (e) {
+    console.log('Unable to graft `env` config; ensure proper configuration.')
+  }
+  return Object.assign({ name }, monorepoConfigDefaults, monorepoConfig)
+}
 
 const findPkgs = (rootPath, globPatterns) => {
   if (!globPatterns) {
@@ -31,11 +69,6 @@ const findPkgs = (rootPath, globPatterns) => {
     .map(f => path.dirname(path.normalize(f)))
 }
 
-const monorepoDefaults = {
-  devFiles: 'src',
-  prodFiles: 'lib'
-}
-
 /**
  * This function gets all of the potential package's production and dev file paths.
  * The returned object is passed as the alias config to the webpack config. This is
@@ -52,54 +85,50 @@ const monorepoDefaults = {
  *    "@package/name": "path/to/files"
  * }
  */
-function getPkgsAliases(allPkgs) {
+function getPkgsAliases(allPkgs, allSrcPkgs) {
   return allPkgs.reduce((aliases, pkgPath) => {
-    const { name, monorepoConfig } = JSON.parse(
-      fs.readFileSync(path.resolve(pkgPath, 'package.json'))
-    )
+    const { name, src, lib } = getMonorepoConfig(pkgPath)
+    const isSrcPkg = allSrcPkgs.includes(pkgPath)
+    const target = isSrcPkg ? src : lib
+    const pkgAlias = path.join(name, target)
 
-    const opts = Object.assign({}, monorepoDefaults, monorepoConfig)
-
-    if (isEnvDevelopment) {
-      aliases[name] = path.join(name, opts.devFiles)
-    } else if (isEnvProduction) {
-      aliases[name] = path.join(name, opts.prodFiles)
-    } else if (isEnvTest) {
+    if (isEnvTest) {
       /**
        * This will be passed to Jest's `transformModuleName` config option.
        * It must be a regex as the key. Below we want to match the name and
        * capture everything after the name (in the capture group) then
        * we want to pass it the capture group to the end of the transformation.
        */
-      aliases[`^${name.replace('/', '/')}(.*)`] = `${path
-        .join(name, opts.devFiles)
-        .replace('/', '/')}$1`
+      aliases[`^${name.replace('/', '/')}(.*)`] = `${pkgAlias.replace(
+        '/',
+        '/'
+      )}$1`
+    } else {
+      aliases[name] = pkgAlias
     }
     return aliases
   }, {})
 }
 
-const appPkg = JSON.parse(
-  fs.readFileSync(path.resolve(appDirectory, 'package.json'))
-)
+const appConfig = getMonorepoConfig(appDirectory)
 const monoPkgPath = findPkg.sync(path.resolve(appDirectory, '..'))
 const monoRootPath = monoPkgPath && path.dirname(monoPkgPath)
 const monoPkg = monoPkgPath && require(monoPkgPath)
 const patterns = monoPkg && monoPkg.workspaces
 const isYarnWs = Boolean(patterns)
-const srcPatterns = appPkg && appPkg.monorepoConfig.srcWorkspaces
+const srcPatterns = appConfig.srcWorkspaces
 const allPkgs = patterns && findPkgs(monoRootPath, patterns)
-
-// Convert the packages paths into the path to each package's source files.
-const allPkgsSrcAliases = getPkgsAliases(allPkgs)
-
 const allSrcPkgs =
   srcPatterns && findPkgs(path.dirname(monoPkgPath), srcPatterns)
-const isIncluded = dir => allPkgs && allPkgs.indexOf(dir) !== -1
-const isAppIncluded = isIncluded(appDirectory)
 const srcPaths = allSrcPkgs
   ? allSrcPkgs.filter(f => fs.realpathSync(f) !== appDirectory)
   : []
+
+// Convert the packages paths into the path to each package's source files.
+const allPkgsSrcAliases = getPkgsAliases(allPkgs, srcPaths)
+
+const isIncluded = dir => allPkgs && allPkgs.indexOf(dir) !== -1
+const isAppIncluded = isIncluded(appDirectory)
 
 module.exports = {
   isMonorepo: isAppIncluded,

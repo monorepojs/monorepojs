@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.1.1...@monorepojs/scripts@0.2.0) (2018-12-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency resolve to v1.9.0 ([80fef13](https://github.com/monorepojs/monorepojs/commit/80fef13))
+* **deps:** update dependency webpack to v4.28.0 ([88199d7](https://github.com/monorepojs/monorepojs/commit/88199d7))
+
+
+### Features
+
+* support env overrides & yml config ([0d84bf7](https://github.com/monorepojs/monorepojs/commit/0d84bf7))
+
+
+
+
+
 ## [0.1.1](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.1.0...@monorepojs/scripts@0.1.1) (2018-12-18)
 
 

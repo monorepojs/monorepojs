@@ -1,0 +1,25 @@
+{
+  "name": "@monorepojs/renovate-config",
+  "version": "0.0.1",
+  "description": "Preset monorepojs config for Renovate",
+  "repository": "monorepojs/monorepojs",
+  "homepage": "https://github.com/monorepojs/monorepojs/packages/monorepo-renovate-config",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6"
+  },
+  "bugs": {
+    "url": "https://github.com/monorepojs/monorepojs/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "renovate-config": {
+    "default": {
+      "description": "monorepojs monorepo",
+      "packagePatterns": [
+        "^@monorepojs/"
+      ]
+    }
+  }
+}

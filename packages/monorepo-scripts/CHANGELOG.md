@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.2.1...@monorepojs/scripts@0.3.0) (2019-01-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency chalk to v2.4.2 ([3187b3f](https://github.com/monorepojs/monorepojs/commit/3187b3f))
+
+
+### Features
+
+* **renovate:** create monorepojs config preset ([4d7bf34](https://github.com/monorepojs/monorepojs/commit/4d7bf34))
+
+
+
+
+
 ## [0.2.1](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.2.0...@monorepojs/scripts@0.2.1) (2019-01-09)
 
 

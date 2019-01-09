@@ -1,8 +1,15 @@
 {
   "name": "@monorepojs/scripts",
   "version": "0.2.1",
+  "description": "Configuration and scripts for MonorepoJS",
+  "repository": "monorepojs/monorepojs",
+  "homepage": "https://monorepo-documentation.firebaseapp.com/docs/packages/monorepo-scripts/",
+  "license": "MIT",
   "engines": {
     "node": ">=6"
+  },
+  "bugs": {
+    "url": "https://github.com/monorepojs/monorepojs/issues"
   },
   "files": [
     "bin",
@@ -10,8 +17,15 @@
     "scripts",
     "utils"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "monorepo-scripts": "./bin/monorepo-scripts.js"
+  },
+  "scripts": {
+    "lint": "monorepo-tools lint .",
+    "pre-commit": "monorepo-tools pre-commit"
   },
   "dependencies": {
     "@babel/core": "7.2.2",
@@ -71,15 +85,8 @@
     "react": "16.7.0",
     "react-dom": "16.7.0"
   },
-  "scripts": {
-    "lint": "monorepo-tools lint .",
-    "pre-commit": "monorepo-tools pre-commit"
-  },
   "optionalDependencies": {
     "fsevents": "2.0.1"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "browserslist": [
     ">0.2%",

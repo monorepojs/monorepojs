@@ -16,9 +16,14 @@
   },
   "renovate-config": {
     "default": {
-      "description": "monorepojs monorepo",
-      "packagePatterns": [
-        "^@monorepojs/"
+      "description": "Group packages from MonorepoJS monorepo together",
+      "packageRules": [
+        {
+          "groupName": "MonorepoJS monorepo",
+          "packagePatterns": [
+            "^@monorepojs/"
+          ]
+        }
       ]
     }
   }

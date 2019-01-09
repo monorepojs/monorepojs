@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.2.0...@monorepojs/scripts@0.2.1) (2019-01-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency [@svgr](https://github.com/svgr)/webpack to v4 ([51abe92](https://github.com/monorepojs/monorepojs/commit/51abe92))
+* **deps:** update dependency babel-eslint to v10 ([3060597](https://github.com/monorepojs/monorepojs/commit/3060597))
+* **deps:** update dependency babel-loader to v8.0.5 ([7378117](https://github.com/monorepojs/monorepojs/commit/7378117))
+* **deps:** update dependency babel-plugin-named-asset-import to v0.3.0 ([0d18cf8](https://github.com/monorepojs/monorepojs/commit/0d18cf8))
+* **deps:** update dependency babel-preset-react-app to v7 ([8c3e1ae](https://github.com/monorepojs/monorepojs/commit/8c3e1ae))
+* **deps:** update dependency css-loader to v2 ([2540a09](https://github.com/monorepojs/monorepojs/commit/2540a09))
+* **deps:** update dependency eslint to v5.12.0 ([0ad959a](https://github.com/monorepojs/monorepojs/commit/0ad959a))
+* **deps:** update dependency eslint-config-react-app to v3.0.6 ([095f6ec](https://github.com/monorepojs/monorepojs/commit/095f6ec))
+* **deps:** update dependency eslint-plugin-flowtype to v3 ([811030b](https://github.com/monorepojs/monorepojs/commit/811030b))
+* **deps:** update dependency eslint-plugin-react to v7.12.3 ([83979c5](https://github.com/monorepojs/monorepojs/commit/83979c5))
+* **deps:** update dependency file-loader to v3 ([32c1ace](https://github.com/monorepojs/monorepojs/commit/32c1ace))
+* **deps:** update dependency find-pkg to v2 ([e185221](https://github.com/monorepojs/monorepojs/commit/e185221))
+* **deps:** update dependency react-app-polyfill to v0.2.0 ([0650b09](https://github.com/monorepojs/monorepojs/commit/0650b09))
+* **deps:** update dependency react-dev-utils to v7 ([de168d1](https://github.com/monorepojs/monorepojs/commit/de168d1))
+* **deps:** update dependency terser-webpack-plugin to v1.2.1 ([b883f16](https://github.com/monorepojs/monorepojs/commit/b883f16))
+* **deps:** update dependency webpack to v4.28.1 ([01934bd](https://github.com/monorepojs/monorepojs/commit/01934bd))
+* **deps:** update dependency webpack-dev-server to v3.1.14 ([82a3ad0](https://github.com/monorepojs/monorepojs/commit/82a3ad0))
+
+
+
+
+
 # [0.2.0](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.1.1...@monorepojs/scripts@0.2.0) (2018-12-19)
 
 

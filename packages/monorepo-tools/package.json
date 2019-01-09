@@ -1,6 +1,6 @@
 {
   "name": "@monorepojs/tools",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "dependencies": {
     "babel-eslint": "10.0.1",
     "eslint": "5.12.0",

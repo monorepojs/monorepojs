@@ -1,6 +1,6 @@
 {
   "name": "@monorepojs/renovate-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Preset monorepojs config for Renovate",
   "repository": "monorepojs/monorepojs",
   "homepage": "https://github.com/monorepojs/monorepojs/packages/monorepo-renovate-config",

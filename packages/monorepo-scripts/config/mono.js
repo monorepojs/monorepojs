@@ -1,6 +1,7 @@
 'use strict'
 const fs = require('fs')
 const path = require('path')
+const chalk = require('chalk')
 const findPkg = require('find-pkg')
 const globby = require('globby')
 const yaml = require('js-yaml')
@@ -18,13 +19,17 @@ const monorepoConfigDefaults = {
   srcWorkspaces: []
 }
 
+const pkgConfigPkgs = []
+const ymlConfigPkgs = []
+
 const getMonorepoConfig = pkgPath => {
   const { name, monorepoConfig: pkgMonorepoConfig } = JSON.parse(
     fs.readFileSync(path.resolve(pkgPath, 'package.json'))
   )
   let monorepoConfig = pkgMonorepoConfig
   if (monorepoConfig) {
-    console.log(`Using \`monorepoConfig\` from "${pkgPath}/package.json"`)
+    // maintain list of pkgs using pkg config for debugging purposes
+    pkgConfigPkgs.push(name)
   } else {
     // Try to fallback to `.monorepo.yml`
     try {
@@ -33,12 +38,13 @@ const getMonorepoConfig = pkgPath => {
       )
       monorepoConfig = Object.assign({}, monorepoConfig, monorepoConfigFile)
     } catch (e) {
-      console.log(`Monorepo config not found at "${pkgPath}/.monorepo.yml"`)
+      console.log(chalk.red(`Missing monorepo config for "${name}".\n`))
     }
     if (monorepoConfig) {
-      console.log(`Using config file "${pkgPath}/.monorepo.yml"`)
+      // maintain list of pkgs using pkg config for debugging purposes
+      ymlConfigPkgs.push(name)
     } else {
-      throw new Error('Monorepo config not found!')
+      throw new Error('Script execution failed; invalid monorepo config!')
     }
   }
   try {
@@ -129,6 +135,26 @@ const allPkgsSrcAliases = getPkgsAliases(allPkgs, srcPaths)
 
 const isIncluded = dir => allPkgs && allPkgs.indexOf(dir) !== -1
 const isAppIncluded = isIncluded(appDirectory)
+
+function logPkgNamesByConfigType(type, pkgs) {
+  if (!pkgs.length) {
+    return
+  }
+  console.log(
+    `\nMonorepo config sourced from ${chalk.cyan(
+      `\`${type}\``
+    )} for the following packages:` +
+      pkgs.reduce(
+        (logStr, pkgName) =>
+          logStr + `\n  - ${chalk.green(chalk.bold(pkgName))}`,
+        ''
+      ) +
+      '\n'
+  )
+}
+
+logPkgNamesByConfigType('package.json', pkgConfigPkgs)
+logPkgNamesByConfigType('.monorepo.yml', ymlConfigPkgs)
 
 module.exports = {
   isMonorepo: isAppIncluded,

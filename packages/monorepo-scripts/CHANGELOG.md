@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.0...@monorepojs/scripts@0.3.1) (2019-01-10)
+
+**Note:** Version bump only for package @monorepojs/scripts
+
+
+
+
+
 # [0.3.0](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.2.1...@monorepojs/scripts@0.3.0) (2019-01-09)
 
 

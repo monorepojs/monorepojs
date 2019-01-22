@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.2](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.1...@monorepojs/scripts@0.3.2) (2019-01-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v5.12.1 ([38061cd](https://github.com/monorepojs/monorepojs/commit/38061cd))
+* **deps:** update dependency eslint-plugin-react to v7.12.4 ([49ebc22](https://github.com/monorepojs/monorepojs/commit/49ebc22))
+* **deps:** update dependency resolve to v1.10.0 ([fa36da7](https://github.com/monorepojs/monorepojs/commit/fa36da7))
+* **deps:** update dependency webpack to v4.28.4 ([4d2b1f1](https://github.com/monorepojs/monorepojs/commit/4d2b1f1))
+* **deps:** update dependency webpack to v4.29.0 ([0030803](https://github.com/monorepojs/monorepojs/commit/0030803))
+
+
+
+
+
 ## [0.3.1](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.0...@monorepojs/scripts@0.3.1) (2019-01-10)
 
 **Note:** Version bump only for package @monorepojs/scripts

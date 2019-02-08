@@ -105,7 +105,7 @@ function getPkgsAliases(allPkgs, allSrcPkgs) {
        * capture everything after the name (in the capture group) then
        * we want to pass it the capture group to the end of the transformation.
        */
-      aliases[`^${name.replace('/', '/')}(.*)`] = `${pkgAlias.replace(
+      aliases[`^${name.replace('/', '/')}($|/.*)`] = `${pkgAlias.replace(
         '/',
         '/'
       )}$1`

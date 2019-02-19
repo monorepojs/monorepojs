@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.4](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.3...@monorepojs/scripts@0.3.4) (2019-02-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/core to v7.3.3 ([ebbebf4](https://github.com/monorepojs/monorepojs/commit/ebbebf4))
+* **deps:** update dependency babel-plugin-named-asset-import to v0.3.1 ([25475ee](https://github.com/monorepojs/monorepojs/commit/25475ee))
+* **deps:** update dependency babel-preset-react-app to v7.0.1 ([bd76b70](https://github.com/monorepojs/monorepojs/commit/bd76b70))
+* **deps:** update dependency case-sensitive-paths-webpack-plugin to v2.2.0 ([874962e](https://github.com/monorepojs/monorepojs/commit/874962e))
+* **deps:** update dependency eslint to v5.14.1 ([10860f4](https://github.com/monorepojs/monorepojs/commit/10860f4))
+* **deps:** update dependency eslint-config-react-app to v3.0.7 ([45c0477](https://github.com/monorepojs/monorepojs/commit/45c0477))
+* **deps:** update dependency eslint-loader to v2.1.2 ([4a34cb6](https://github.com/monorepojs/monorepojs/commit/4a34cb6))
+* **deps:** update dependency eslint-plugin-flowtype to v3.4.2 ([d9c3f8d](https://github.com/monorepojs/monorepojs/commit/d9c3f8d))
+* **deps:** update dependency eslint-plugin-import to v2.16.0 ([91bdf74](https://github.com/monorepojs/monorepojs/commit/91bdf74))
+* **deps:** update dependency eslint-plugin-jsx-a11y to v6.2.1 ([0462936](https://github.com/monorepojs/monorepojs/commit/0462936))
+* **deps:** update dependency jest-pnp-resolver to v1.1.0 ([a1e4e81](https://github.com/monorepojs/monorepojs/commit/a1e4e81))
+* **deps:** update dependency react-app-polyfill to v0.2.1 ([ff4d426](https://github.com/monorepojs/monorepojs/commit/ff4d426))
+* **deps:** update dependency react-dev-utils to v7.0.3 ([19afe83](https://github.com/monorepojs/monorepojs/commit/19afe83))
+* **deps:** update dependency terser-webpack-plugin to v1.2.2 ([80de6b7](https://github.com/monorepojs/monorepojs/commit/80de6b7))
+* **deps:** update dependency webpack to v4.29.5 ([ed7c56d](https://github.com/monorepojs/monorepojs/commit/ed7c56d))
+* **deps:** update jest monorepo to v24 ([f69c374](https://github.com/monorepojs/monorepojs/commit/f69c374))
+
+
+
+
+
 ## [0.3.3](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.2...@monorepojs/scripts@0.3.3) (2019-02-08)
 
 

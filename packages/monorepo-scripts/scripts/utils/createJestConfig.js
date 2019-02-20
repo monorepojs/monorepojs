@@ -17,8 +17,8 @@ module.exports = (resolve, rootDir, isEjecting) => {
   const setupTestsMatches = paths.testsSetup.match(/src\/setupTests\.(.+)/)
   const setupTestsFileExtension =
     (setupTestsMatches && setupTestsMatches[1]) || 'js'
-  const setupTestsFile = fs.existsSync(paths.testsSetup)
-    ? `<rootDir>/src/setupTests.${setupTestsFileExtension}`
+  const setupTestsFiles = fs.existsSync(paths.testsSetup)
+    ? [`<rootDir>/src/setupTests.${setupTestsFileExtension}`]
     : undefined
 
   // TODO: I don't know if it's safe or not to just use / as path separator
@@ -40,7 +40,7 @@ module.exports = (resolve, rootDir, isEjecting) => {
       resolve('config/jest/registerContext.js')
     ],
 
-    setupTestFrameworkScriptFile: setupTestsFile,
+    setupFilesAfterEnv: setupTestsFiles,
     testMatch: [
       '<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}',
       '<rootDir>/src/**/?(*.)(spec|test).{js,jsx,ts,tsx}'

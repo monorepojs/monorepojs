@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.5](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.4...@monorepojs/scripts@0.3.5) (2019-02-20)
+
+
+### Bug Fixes
+
+* **deps:** update deprecated jest option ([ece280f](https://github.com/monorepojs/monorepojs/commit/ece280f))
+
+
+
+
+
 ## [0.3.4](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.3...@monorepojs/scripts@0.3.4) (2019-02-19)
 
 

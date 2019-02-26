@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.6](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.5...@monorepojs/scripts@0.3.6) (2019-02-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/core to v7.3.4 ([9aefed8](https://github.com/monorepojs/monorepojs/commit/9aefed8))
+* **deps:** update dependency jest-pnp-resolver to v1.2.0 ([4f49f40](https://github.com/monorepojs/monorepojs/commit/4f49f40))
+* **deps:** update dependency pnp-webpack-plugin to v1.3.1 ([06517e0](https://github.com/monorepojs/monorepojs/commit/06517e0))
+* **deps:** update dependency terser-webpack-plugin to v1.2.3 ([3c5692a](https://github.com/monorepojs/monorepojs/commit/3c5692a))
+* **deps:** update dependency webpack-dev-server to v3.2.1 ([ddddc03](https://github.com/monorepojs/monorepojs/commit/ddddc03))
+
+
+
+
+
 ## [0.3.5](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.4...@monorepojs/scripts@0.3.5) (2019-02-20)
 
 

@@ -420,17 +420,9 @@ module.exports = {
         typescript: resolve.sync('typescript', {
           basedir: paths.appNodeModules
         }),
-        async: false,
+        async: true,
         checkSyntacticErrors: true,
         tsconfig: paths.appTsConfig,
-        compilerOptions: {
-          module: 'esnext',
-          moduleResolution: 'node',
-          resolveJsonModule: true,
-          isolatedModules: true,
-          noEmit: true,
-          jsx: 'preserve'
-        },
         reportFiles: [
           '**',
           '!**/*.json',

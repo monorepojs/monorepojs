@@ -10,17 +10,14 @@ require('../env')
 const { aliases } = require('../mono')
 const { srcPaths } = require('../paths')
 
-module.exports = (baseConfig, env, defaultConfig) => {
+module.exports = ({ config }) => {
   // For example, add typescript loader:
-  Object.assign(defaultConfig.resolve.alias, aliases)
+  Object.assign(config.resolve.alias, aliases)
 
-  defaultConfig.module.rules[0].include = srcPaths
-  defaultConfig.module.rules[0].exclude = [/[/\\\\]node_modules[/\\\\]/]
-  defaultConfig.module.rules[0].use[0].options.plugins.push(
-    '@babel/plugin-syntax-dynamic-import'
-  )
-  defaultConfig.module.rules[0].use[0].options.babelrc = false
-  defaultConfig.module.rules[0].use[0].options.configFile = false
+  config.module.rules[0].include = srcPaths
+  config.module.rules[0].exclude = [/[/\\\\]node_modules[/\\\\]/]
+  config.module.rules[0].use[0].options.babelrc = false
+  config.module.rules[0].use[0].options.configFile = false
 
-  return defaultConfig
+  return config
 }

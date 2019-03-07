@@ -82,8 +82,8 @@
   "devDependencies": {
     "@monorepojs/tools": "0.2.2",
     "js-yaml": "3.12.2",
-    "react": "16.8.3",
-    "react-dom": "16.8.3"
+    "react": "16.8.4",
+    "react-dom": "16.8.4"
   },
   "optionalDependencies": {
     "fsevents": "2.0.1"

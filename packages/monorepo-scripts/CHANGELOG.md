@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.7](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.6...@monorepojs/scripts@0.3.7) (2019-03-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency babel-preset-react-app to v7.0.2 ([dfce4cb](https://github.com/monorepojs/monorepojs/commit/dfce4cb))
+* **deps:** update dependency css-loader to v2.1.1 ([ae052c3](https://github.com/monorepojs/monorepojs/commit/ae052c3))
+* **deps:** update dependency eslint to v5.15.1 ([75514dd](https://github.com/monorepojs/monorepojs/commit/75514dd))
+* **deps:** update dependency eslint-config-react-app to v3.0.8 ([083fcc2](https://github.com/monorepojs/monorepojs/commit/083fcc2))
+* **deps:** update dependency pnp-webpack-plugin to v1.4.1 ([c099cf5](https://github.com/monorepojs/monorepojs/commit/c099cf5))
+* **deps:** update dependency postcss-preset-env to v6.6.0 ([bb75aab](https://github.com/monorepojs/monorepojs/commit/bb75aab))
+* **deps:** update dependency react-app-polyfill to v0.2.2 ([26d8dde](https://github.com/monorepojs/monorepojs/commit/26d8dde))
+* **deps:** update dependency react-dev-utils to v7.0.5 ([0b948a0](https://github.com/monorepojs/monorepojs/commit/0b948a0))
+* **deps:** update dependency react-dev-utils to v8 ([78e309b](https://github.com/monorepojs/monorepojs/commit/78e309b))
+* **deps:** update dependency webpack to v4.29.6 ([6dd9e46](https://github.com/monorepojs/monorepojs/commit/6dd9e46))
+* **deps:** update dependency workbox-webpack-plugin to v4 ([616ce9b](https://github.com/monorepojs/monorepojs/commit/616ce9b))
+* **deps:** update jest monorepo to v24.3.0 ([96e70db](https://github.com/monorepojs/monorepojs/commit/96e70db))
+
+
+
+
+
 ## [0.3.6](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.5...@monorepojs/scripts@0.3.6) (2019-02-26)
 
 

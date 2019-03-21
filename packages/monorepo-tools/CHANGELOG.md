@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.4](https://github.com/monorepojs/monorepojs/compare/@monorepojs/tools@0.2.3...@monorepojs/tools@0.2.4) (2019-03-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v5.15.3 ([bb1e828](https://github.com/monorepojs/monorepojs/commit/bb1e828))
+
+
+
+
+
 ## [0.2.3](https://github.com/monorepojs/monorepojs/compare/@monorepojs/tools@0.2.2...@monorepojs/tools@0.2.3) (2019-03-07)
 
 

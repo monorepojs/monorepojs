@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.8](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.7...@monorepojs/scripts@0.3.8) (2019-03-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/core to v7.4.0 ([3ca40d6](https://github.com/monorepojs/monorepojs/commit/3ca40d6))
+* **deps:** update dependency dotenv to v7 ([270abcc](https://github.com/monorepojs/monorepojs/commit/270abcc))
+* **deps:** update dependency dotenv-expand to v5 ([c51419b](https://github.com/monorepojs/monorepojs/commit/c51419b))
+* **deps:** update dependency eslint to v5.15.3 ([bb1e828](https://github.com/monorepojs/monorepojs/commit/bb1e828))
+* **deps:** update dependency jest-pnp-resolver to v1.2.1 ([81b8db3](https://github.com/monorepojs/monorepojs/commit/81b8db3))
+* **deps:** update dependency workbox-webpack-plugin to v4.1.1 ([719813c](https://github.com/monorepojs/monorepojs/commit/719813c))
+* **deps:** update jest monorepo to v24.5.0 ([083cbd3](https://github.com/monorepojs/monorepojs/commit/083cbd3))
+
+
+
+
+
 ## [0.3.7](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.6...@monorepojs/scripts@0.3.7) (2019-03-07)
 
 

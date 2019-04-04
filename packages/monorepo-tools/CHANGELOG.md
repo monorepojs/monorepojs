@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.5](https://github.com/monorepojs/monorepojs/compare/@monorepojs/tools@0.2.4...@monorepojs/tools@0.2.5) (2019-04-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v5.16.0 ([6db042a](https://github.com/monorepojs/monorepojs/commit/6db042a))
+* **deps:** update dependency eslint-plugin-flowtype to v3.5.1 ([7b11780](https://github.com/monorepojs/monorepojs/commit/7b11780))
+
+
+
+
+
 ## [0.2.4](https://github.com/monorepojs/monorepojs/compare/@monorepojs/tools@0.2.3...@monorepojs/tools@0.2.4) (2019-03-21)
 
 

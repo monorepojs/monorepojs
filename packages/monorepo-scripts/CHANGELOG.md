@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.9](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.8...@monorepojs/scripts@0.3.9) (2019-04-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/core to v7.4.3 ([3ad3b5c](https://github.com/monorepojs/monorepojs/commit/3ad3b5c))
+* **deps:** update dependency eslint to v5.16.0 ([6db042a](https://github.com/monorepojs/monorepojs/commit/6db042a))
+* **deps:** update dependency eslint-plugin-flowtype to v3.5.1 ([7b11780](https://github.com/monorepojs/monorepojs/commit/7b11780))
+* **deps:** update jest monorepo to v24.7.1 ([237fdcb](https://github.com/monorepojs/monorepojs/commit/237fdcb))
+
+
+
+
+
 ## [0.3.8](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.7...@monorepojs/scripts@0.3.8) (2019-03-21)
 
 

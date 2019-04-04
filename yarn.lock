@@ -5586,10 +5586,10 @@ fs.realpath@^1.0.0:
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
 
-fsevents@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.0.1.tgz#cdc8dc0145fa4198f4500ec09df35e79e5e52cf7"
-  integrity sha512-p+CXqK/iLvDESUWdn3NA3JVO9HxdfI+iXx8xR3DqWgKZvQNiEVpAyUQo0lmwz8rqksb4xaGerG291xuwwhX2kA==
+fsevents@2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.0.3.tgz#49ffb097c132987fc84938f5e97c3a6632e04c13"
+  integrity sha512-kbyPVQrgcnetW389rufw+WAl9szz0ougHcW6faFZ/RDESUwgmCWnzmXHONmdKSWiadtj6VaaewwhyX7ckL+itw==
 
 fsevents@^1.2.2:
   version "1.2.4"

@@ -81,7 +81,7 @@
   },
   "devDependencies": {
     "@monorepojs/tools": "0.2.5",
-    "js-yaml": "3.13.0",
+    "js-yaml": "3.13.1",
     "react": "16.8.6",
     "react-dom": "16.8.6"
   },

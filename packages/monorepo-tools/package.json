@@ -6,7 +6,7 @@
   "homepage": "https://monorepo-documentation.firebaseapp.com/docs/packages/monorepo-tools/",
   "license": "MIT",
   "engines": {
-    "node": ">=6"
+    "node": ">=8.10"
   },
   "bugs": {
     "url": "https://github.com/monorepojs/monorepojs/issues"

@@ -6,7 +6,7 @@
   "homepage": "https://github.com/monorepojs/monorepojs/tree/master/packages/monorepo-renovate-config",
   "license": "MIT",
   "engines": {
-    "node": ">=6"
+    "node": ">=8.10"
   },
   "bugs": {
     "url": "https://github.com/monorepojs/monorepojs/issues"

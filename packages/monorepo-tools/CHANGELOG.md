@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.6](https://github.com/monorepojs/monorepojs/compare/@monorepojs/tools@0.2.5...@monorepojs/tools@0.2.6) (2019-04-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-prettier to v4.2.0 ([5d609fc](https://github.com/monorepojs/monorepojs/commit/5d609fc))
+* **deps:** update dependency eslint-config-react-app to v4 ([4e335b4](https://github.com/monorepojs/monorepojs/commit/4e335b4))
+* **deps:** update dependency eslint-plugin-flowtype to v3.6.1 ([deaa8b5](https://github.com/monorepojs/monorepojs/commit/deaa8b5))
+* **deps:** update dependency eslint-plugin-import to v2.17.2 ([3ed05d3](https://github.com/monorepojs/monorepojs/commit/3ed05d3))
+* **deps:** update dependency prettier to v1.17.0 ([348522f](https://github.com/monorepojs/monorepojs/commit/348522f))
+
+
+
+
+
 ## [0.2.5](https://github.com/monorepojs/monorepojs/compare/@monorepojs/tools@0.2.4...@monorepojs/tools@0.2.5) (2019-04-04)
 
 

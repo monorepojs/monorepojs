@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.10](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.9...@monorepojs/scripts@0.3.10) (2019-04-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/core to v7.4.4 ([fe93eb0](https://github.com/monorepojs/monorepojs/commit/fe93eb0))
+* **deps:** update dependency @svgr/webpack to v4.2.0 ([7119c68](https://github.com/monorepojs/monorepojs/commit/7119c68))
+* **deps:** update dependency babel-plugin-named-asset-import to v0.3.2 ([05fdb66](https://github.com/monorepojs/monorepojs/commit/05fdb66))
+* **deps:** update dependency babel-preset-react-app to v8 ([5d41416](https://github.com/monorepojs/monorepojs/commit/5d41416))
+* **deps:** update dependency eslint-config-react-app to v4 ([4e335b4](https://github.com/monorepojs/monorepojs/commit/4e335b4))
+* **deps:** update dependency eslint-plugin-flowtype to v3.6.1 ([deaa8b5](https://github.com/monorepojs/monorepojs/commit/deaa8b5))
+* **deps:** update dependency eslint-plugin-import to v2.17.2 ([3ed05d3](https://github.com/monorepojs/monorepojs/commit/3ed05d3))
+* **deps:** update dependency mini-css-extract-plugin to v0.6.0 ([c637818](https://github.com/monorepojs/monorepojs/commit/c637818))
+* **deps:** update dependency pnp-webpack-plugin to v1.4.3 ([78312b5](https://github.com/monorepojs/monorepojs/commit/78312b5))
+* **deps:** update dependency react-app-polyfill to v1 ([f336f49](https://github.com/monorepojs/monorepojs/commit/f336f49))
+* **deps:** update dependency react-dev-utils to v9 ([c99f7ac](https://github.com/monorepojs/monorepojs/commit/c99f7ac))
+* **deps:** update dependency resolve to v1.10.1 ([ad05b84](https://github.com/monorepojs/monorepojs/commit/ad05b84))
+* **deps:** update dependency webpack to v4.30.0 ([9a75b07](https://github.com/monorepojs/monorepojs/commit/9a75b07))
+* **deps:** update dependency webpack-dev-server to v3.3.1 ([3a01fe5](https://github.com/monorepojs/monorepojs/commit/3a01fe5))
+* **deps:** update dependency workbox-webpack-plugin to v4.3.0 ([b7b2a53](https://github.com/monorepojs/monorepojs/commit/b7b2a53))
+
+
+
+
+
 ## [0.3.9](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.8...@monorepojs/scripts@0.3.9) (2019-04-04)
 
 

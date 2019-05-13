@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.11](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.10...@monorepojs/scripts@0.3.11) (2019-05-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency babel-loader to v8.0.6 ([e4eed56](https://github.com/monorepojs/monorepojs/commit/e4eed56))
+* **deps:** update dependency babel-preset-react-app to v9 ([d2c9693](https://github.com/monorepojs/monorepojs/commit/d2c9693))
+* **deps:** update dependency dotenv to v8 ([3f15c57](https://github.com/monorepojs/monorepojs/commit/3f15c57))
+* **deps:** update dependency eslint-config-react-app to v4.0.1 ([ed598fb](https://github.com/monorepojs/monorepojs/commit/ed598fb))
+* **deps:** update dependency eslint-plugin-flowtype to v3.8.2 ([45e5a08](https://github.com/monorepojs/monorepojs/commit/45e5a08))
+* **deps:** update dependency eslint-plugin-react to v7.13.0 ([c591786](https://github.com/monorepojs/monorepojs/commit/c591786))
+* **deps:** update dependency fs-extra to v8 ([a374351](https://github.com/monorepojs/monorepojs/commit/a374351))
+* **deps:** update dependency react-app-polyfill to v1.0.1 ([e00df79](https://github.com/monorepojs/monorepojs/commit/e00df79))
+* **deps:** update dependency react-dev-utils to v9.0.1 ([692b1c4](https://github.com/monorepojs/monorepojs/commit/692b1c4))
+* **deps:** update dependency webpack to v4.31.0 ([2a062f5](https://github.com/monorepojs/monorepojs/commit/2a062f5))
+* **deps:** update dependency workbox-webpack-plugin to v4.3.1 ([ca45e60](https://github.com/monorepojs/monorepojs/commit/ca45e60))
+* **deps:** update jest monorepo to v24.8.0 ([e6259d3](https://github.com/monorepojs/monorepojs/commit/e6259d3))
+* **deps:** update typescript-eslint monorepo to v1.9.0 ([d57f1f5](https://github.com/monorepojs/monorepojs/commit/d57f1f5))
+
+
+
+
+
 ## [0.3.10](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.9...@monorepojs/scripts@0.3.10) (2019-04-29)
 
 

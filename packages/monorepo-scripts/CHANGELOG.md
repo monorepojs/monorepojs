@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.12](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.11...@monorepojs/scripts@0.3.12) (2019-06-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/core to v7.4.5 ([#180](https://github.com/monorepojs/monorepojs/issues/180)) ([aa2eadc](https://github.com/monorepojs/monorepojs/commit/aa2eadc))
+
+
+
+
+
 ## [0.3.11](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.10...@monorepojs/scripts@0.3.11) (2019-05-13)
 
 

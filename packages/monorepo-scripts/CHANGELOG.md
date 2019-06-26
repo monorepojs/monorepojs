@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.13](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.12...@monorepojs/scripts@0.3.13) (2019-06-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @svgr/webpack to v4.3.0 ([c7e5897](https://github.com/monorepojs/monorepojs/commit/c7e5897))
+* **deps:** update dependency babel-eslint to v10.0.2 ([cddb703](https://github.com/monorepojs/monorepojs/commit/cddb703))
+* **deps:** update dependency eslint-plugin-flowtype to v3.11.1 ([fc67247](https://github.com/monorepojs/monorepojs/commit/fc67247))
+* **deps:** update dependency eslint-plugin-import to v2.18.0 ([60ccdf3](https://github.com/monorepojs/monorepojs/commit/60ccdf3))
+* **deps:** update dependency eslint-plugin-react to v7.14.2 ([e252277](https://github.com/monorepojs/monorepojs/commit/e252277))
+* **deps:** update dependency eslint-plugin-react-hooks to v1.6.1 ([200af54](https://github.com/monorepojs/monorepojs/commit/200af54))
+* **deps:** update dependency file-loader to v4 ([d6e7c0c](https://github.com/monorepojs/monorepojs/commit/d6e7c0c))
+* **deps:** update dependency mini-css-extract-plugin to v0.7.0 ([e9f761a](https://github.com/monorepojs/monorepojs/commit/e9f761a))
+* **deps:** update dependency pnp-webpack-plugin to v1.5.0 ([668460b](https://github.com/monorepojs/monorepojs/commit/668460b))
+* **deps:** update dependency resolve to v1.11.1 ([02cf210](https://github.com/monorepojs/monorepojs/commit/02cf210))
+* **deps:** update dependency terser-webpack-plugin to v1.3.0 ([2507c71](https://github.com/monorepojs/monorepojs/commit/2507c71))
+* **deps:** update dependency typescript to v3.5.2 ([6e7e32f](https://github.com/monorepojs/monorepojs/commit/6e7e32f))
+* **deps:** update dependency url-loader to v2 ([454cc9f](https://github.com/monorepojs/monorepojs/commit/454cc9f))
+* **deps:** update dependency webpack to v4.35.0 ([345a8d7](https://github.com/monorepojs/monorepojs/commit/345a8d7))
+* **deps:** update dependency webpack-dev-server to v3.7.2 ([857eb10](https://github.com/monorepojs/monorepojs/commit/857eb10))
+
+
+
+
+
 ## [0.3.12](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.11...@monorepojs/scripts@0.3.12) (2019-06-26)
 
 

@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.8](https://github.com/monorepojs/monorepojs/compare/@monorepojs/tools@0.2.7...@monorepojs/tools@0.2.8) (2019-06-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency babel-eslint to v10.0.2 ([cddb703](https://github.com/monorepojs/monorepojs/commit/cddb703))
+* **deps:** update dependency eslint-config-prettier to v4.3.0 ([b514568](https://github.com/monorepojs/monorepojs/commit/b514568))
+* **deps:** update dependency eslint-plugin-flowtype to v3.11.1 ([fc67247](https://github.com/monorepojs/monorepojs/commit/fc67247))
+* **deps:** update dependency eslint-plugin-import to v2.18.0 ([60ccdf3](https://github.com/monorepojs/monorepojs/commit/60ccdf3))
+* **deps:** update dependency eslint-plugin-react to v7.14.2 ([e252277](https://github.com/monorepojs/monorepojs/commit/e252277))
+* **deps:** update dependency lint-staged to v8.2.1 ([8df3a83](https://github.com/monorepojs/monorepojs/commit/8df3a83))
+* **deps:** update dependency prettier to v1.18.2 ([7d450b5](https://github.com/monorepojs/monorepojs/commit/7d450b5))
+
+
+
+
+
 ## [0.2.7](https://github.com/monorepojs/monorepojs/compare/@monorepojs/tools@0.2.6...@monorepojs/tools@0.2.7) (2019-05-13)
 
 

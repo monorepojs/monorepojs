@@ -28,7 +28,7 @@
     "pre-commit": "monorepo-tools pre-commit"
   },
   "dependencies": {
-    "@babel/core": "7.4.5",
+    "@babel/core": "7.5.4",
     "@babel/plugin-syntax-dynamic-import": "7.2.0",
     "@svgr/webpack": "4.3.0",
     "@typescript-eslint/eslint-plugin": "1.12.0",

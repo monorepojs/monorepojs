@@ -22,7 +22,7 @@
     "test:coverage": "lerna run test:coverage --stream --concurrency 1"
   },
   "devDependencies": {
-    "commitizen": "3.1.2",
+    "commitizen": "4.0.3",
     "cz-conventional-changelog": "2.1.0",
     "husky": "3.0.1",
     "lerna": "3.16.4",

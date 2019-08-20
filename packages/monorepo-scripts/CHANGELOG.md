@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.15](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.14...@monorepojs/scripts@0.3.15) (2019-08-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency babel-plugin-named-asset-import to v0.3.3 ([11546fc](https://github.com/monorepojs/monorepojs/commit/11546fc))
+* **deps:** update dependency babel-preset-react-app to v9.0.1 ([a3ba30b](https://github.com/monorepojs/monorepojs/commit/a3ba30b))
+* **deps:** update dependency css-loader to v3.2.0 ([e62d30d](https://github.com/monorepojs/monorepojs/commit/e62d30d))
+* **deps:** update dependency dotenv to v8.1.0 ([0178c76](https://github.com/monorepojs/monorepojs/commit/0178c76))
+* **deps:** update dependency eslint to v6.2.1 ([2d9bc1e](https://github.com/monorepojs/monorepojs/commit/2d9bc1e))
+* **deps:** update dependency eslint-config-react-app to v5 ([dfbbe7c](https://github.com/monorepojs/monorepojs/commit/dfbbe7c))
+* **deps:** update dependency eslint-plugin-flowtype to v3.13.0 ([8dcf102](https://github.com/monorepojs/monorepojs/commit/8dcf102))
+* **deps:** update dependency eslint-plugin-flowtype to v4 ([0fab71e](https://github.com/monorepojs/monorepojs/commit/0fab71e))
+* **deps:** update dependency file-loader to v4.2.0 ([42bb495](https://github.com/monorepojs/monorepojs/commit/42bb495))
+* **deps:** update dependency react-app-polyfill to v1.0.2 ([aadc038](https://github.com/monorepojs/monorepojs/commit/aadc038))
+* **deps:** update dependency react-dev-utils to v9.0.3 ([aa573d9](https://github.com/monorepojs/monorepojs/commit/aa573d9))
+* **deps:** update dependency resolve to v1.12.0 ([ce86f76](https://github.com/monorepojs/monorepojs/commit/ce86f76))
+* **deps:** update dependency sass-loader to v7.3.1 ([3247bc1](https://github.com/monorepojs/monorepojs/commit/3247bc1))
+* **deps:** update dependency style-loader to v1 ([7c32ad4](https://github.com/monorepojs/monorepojs/commit/7c32ad4))
+* **deps:** update dependency terser-webpack-plugin to v1.4.1 ([4f90c30](https://github.com/monorepojs/monorepojs/commit/4f90c30))
+* **deps:** update dependency webpack to v4.39.2 ([6f798fd](https://github.com/monorepojs/monorepojs/commit/6f798fd))
+* **deps:** update dependency webpack-dev-server to v3.8.0 ([f2b5d59](https://github.com/monorepojs/monorepojs/commit/f2b5d59))
+* **deps:** update jest monorepo to v24.9.0 ([16412db](https://github.com/monorepojs/monorepojs/commit/16412db))
+* **deps:** update react monorepo ([8079688](https://github.com/monorepojs/monorepojs/commit/8079688))
+* **deps:** update typescript-eslint monorepo to v2 ([0c9b9f2](https://github.com/monorepojs/monorepojs/commit/0c9b9f2))
+
+
+
+
+
 ## [0.3.14](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.13...@monorepojs/scripts@0.3.14) (2019-07-26)
 
 

@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.11](https://github.com/monorepojs/monorepojs/compare/@monorepojs/tools@0.2.10...@monorepojs/tools@0.2.11) (2019-09-09)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo ([bfca4de](https://github.com/monorepojs/monorepojs/commit/bfca4de))
+* **deps:** update dependency eslint to v6.3.0 ([9710932](https://github.com/monorepojs/monorepojs/commit/9710932))
+* **deps:** update dependency eslint-config-prettier to v6.2.0 ([5e305ae](https://github.com/monorepojs/monorepojs/commit/5e305ae))
+* **deps:** update dependency eslint-plugin-flowtype to v4.3.0 ([6f8c223](https://github.com/monorepojs/monorepojs/commit/6f8c223))
+* **deps:** update dependency lint-staged to v9.2.5 ([60f513e](https://github.com/monorepojs/monorepojs/commit/60f513e))
+
+
+
+
+
 ## [0.2.10](https://github.com/monorepojs/monorepojs/compare/@monorepojs/tools@0.2.9...@monorepojs/tools@0.2.10) (2019-08-20)
 
 

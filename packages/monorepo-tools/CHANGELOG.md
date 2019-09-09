@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.12](https://github.com/monorepojs/monorepojs/compare/@monorepojs/tools@0.2.11...@monorepojs/tools@0.2.12) (2019-09-09)
+
+**Note:** Version bump only for package @monorepojs/tools
+
+
+
+
+
 ## [0.2.11](https://github.com/monorepojs/monorepojs/compare/@monorepojs/tools@0.2.10...@monorepojs/tools@0.2.11) (2019-09-09)
 
 

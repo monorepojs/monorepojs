@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.18](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.17...@monorepojs/scripts@0.3.18) (2019-09-10)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v2.2.0 ([fd238e0](https://github.com/monorepojs/monorepojs/commit/fd238e0))
+
+
+
+
+
 ## [0.3.17](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.16...@monorepojs/scripts@0.3.17) (2019-09-09)
 
 **Note:** Version bump only for package @monorepojs/scripts

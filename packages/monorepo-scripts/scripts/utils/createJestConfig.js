@@ -86,7 +86,7 @@ module.exports = (resolve, rootDir, isEjecting) => {
   ]
   if (overrides) {
     supportedKeys.forEach(key => {
-      if (overrides.hasOwnProperty(key)) {
+      if (Object.prototype.hasOwnProperty.call(overrides, key)) {
         config[key] = overrides[key]
         delete overrides[key]
       }

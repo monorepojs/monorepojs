@@ -11,7 +11,7 @@
 const babelJest = require('babel-jest')
 
 module.exports = babelJest.createTransformer({
-  presets: ['babel-preset-react-app'],
+  presets: [['babel-preset-react-app', { absoluteRuntime: false }]],
   plugins: ['require-context-hook'],
   babelrc: false,
   configFile: false

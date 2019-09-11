@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.19](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.18...@monorepojs/scripts@0.3.19) (2019-09-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency typescript to v3.6.3 ([3972390](https://github.com/monorepojs/monorepojs/commit/3972390))
+* pass absoluteRuntime option to babel-preset-react-app ([c5fc78a](https://github.com/monorepojs/monorepojs/commit/c5fc78a))
+
+
+
+
+
 ## [0.3.18](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.17...@monorepojs/scripts@0.3.18) (2019-09-10)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@monorepojs/scripts",
-  "version": "0.3.19",
+  "version": "0.3.20",
   "description": "Configuration and scripts for MonorepoJS",
   "repository": "monorepojs/monorepojs",
   "homepage": "https://monorepo-documentation.firebaseapp.com/docs/packages/monorepo-scripts/",
@@ -84,7 +84,7 @@
     "workbox-webpack-plugin": "4.3.1"
   },
   "devDependencies": {
-    "@monorepojs/tools": "0.2.13",
+    "@monorepojs/tools": "0.2.14",
     "js-yaml": "3.13.1",
     "react": "16.10.2",
     "react-dom": "16.10.2"

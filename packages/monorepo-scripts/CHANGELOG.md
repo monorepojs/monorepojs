@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.20](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.19...@monorepojs/scripts@0.3.20) (2019-10-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/core to v7.6.3 ([762db02](https://github.com/monorepojs/monorepojs/commit/762db02))
+* **deps:** update dependency @svgr/webpack to v4.3.3 ([1c28e03](https://github.com/monorepojs/monorepojs/commit/1c28e03))
+* **deps:** update dependency babel-plugin-named-asset-import to v0.3.4 ([df9c1e8](https://github.com/monorepojs/monorepojs/commit/df9c1e8))
+* **deps:** update dependency babel-preset-react-app to v9.0.2 ([7f6ef32](https://github.com/monorepojs/monorepojs/commit/7f6ef32))
+* **deps:** update dependency eslint to v6.5.1 ([e902b54](https://github.com/monorepojs/monorepojs/commit/e902b54))
+* **deps:** update dependency eslint-config-react-app to v5.0.2 ([8ff33f8](https://github.com/monorepojs/monorepojs/commit/8ff33f8))
+* **deps:** update dependency eslint-loader to v3.0.2 ([645da54](https://github.com/monorepojs/monorepojs/commit/645da54))
+* **deps:** update dependency react-app-polyfill to v1.0.4 ([135c8f6](https://github.com/monorepojs/monorepojs/commit/135c8f6))
+* **deps:** update dependency react-dev-utils to v9.1.0 ([7322a68](https://github.com/monorepojs/monorepojs/commit/7322a68))
+* **deps:** update dependency terser-webpack-plugin to v2.1.2 ([10f91a7](https://github.com/monorepojs/monorepojs/commit/10f91a7))
+* **deps:** update dependency webpack to v4.41.0 ([333cd82](https://github.com/monorepojs/monorepojs/commit/333cd82))
+* **deps:** update dependency webpack-dev-server to v3.8.2 ([d0ee183](https://github.com/monorepojs/monorepojs/commit/d0ee183))
+* **deps:** update dependency webpack-manifest-plugin to v2.2.0 ([69cea1e](https://github.com/monorepojs/monorepojs/commit/69cea1e))
+* **deps:** update react monorepo ([61a6fe8](https://github.com/monorepojs/monorepojs/commit/61a6fe8))
+* **deps:** update typescript-eslint monorepo to v2.3.3 ([5aa7110](https://github.com/monorepojs/monorepojs/commit/5aa7110))
+
+
+
+
+
 ## [0.3.19](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.18...@monorepojs/scripts@0.3.19) (2019-09-11)
 
 

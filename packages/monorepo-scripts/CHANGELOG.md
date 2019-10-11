@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.21](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.20...@monorepojs/scripts@0.3.21) (2019-10-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/core to v7.6.4 ([7bb7bf9](https://github.com/monorepojs/monorepojs/commit/7bb7bf9))
+* **deps:** update dependency eslint-plugin-react to v7.16.0 ([d035f7e](https://github.com/monorepojs/monorepojs/commit/d035f7e))
+* **deps:** update dependency terser-webpack-plugin to v2.1.3 ([e1e9219](https://github.com/monorepojs/monorepojs/commit/e1e9219))
+* **deps:** update dependency typescript to v3.6.4 ([ab865e4](https://github.com/monorepojs/monorepojs/commit/ab865e4))
+* **deps:** update dependency url-loader to v2.2.0 ([5ae475a](https://github.com/monorepojs/monorepojs/commit/5ae475a))
+* **deps:** update dependency webpack to v4.41.1 ([150eebf](https://github.com/monorepojs/monorepojs/commit/150eebf))
+
+
+
+
+
 ## [0.3.20](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.19...@monorepojs/scripts@0.3.20) (2019-10-09)
 
 

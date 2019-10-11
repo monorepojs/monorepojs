@@ -1,6 +1,6 @@
 {
   "name": "@monorepojs/tools",
-  "version": "0.2.14",
+  "version": "0.2.15",
   "description": "Opinionated developer tooling for MonorepoJS",
   "repository": "monorepojs/monorepojs",
   "homepage": "https://monorepo-documentation.firebaseapp.com/docs/packages/monorepo-tools/",

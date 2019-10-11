@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.15](https://github.com/monorepojs/monorepojs/compare/@monorepojs/tools@0.2.14...@monorepojs/tools@0.2.15) (2019-10-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to v7.16.0 ([d035f7e](https://github.com/monorepojs/monorepojs/commit/d035f7e))
+
+
+
+
+
 ## [0.2.14](https://github.com/monorepojs/monorepojs/compare/@monorepojs/tools@0.2.13...@monorepojs/tools@0.2.14) (2019-10-09)
 
 

@@ -90,7 +90,7 @@
     "react-dom": "16.10.2"
   },
   "optionalDependencies": {
-    "fsevents": "2.1.0"
+    "fsevents": "2.1.2"
   },
   "browserslist": [
     ">0.2%",

@@ -69,7 +69,12 @@ const findPkgs = (rootPath, globPatterns) => {
   return globPatterns
     .reduce(
       (pkgs, pattern) =>
-        pkgs.concat(globby.sync(path.join(pattern, 'package.json'), globOpts)),
+        pkgs.concat(
+          globby.sync(
+            path.join(pattern, 'package.json').replace(/\\/g, '/'),
+            globOpts
+          )
+        ),
       []
     )
     .map(f => path.dirname(path.normalize(f)))

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.22](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.21...@monorepojs/scripts@0.3.22) (2020-01-08)
+
+
+### Bug Fixes
+
+* **scripts:** issue with paths on windows ([2088c3c](https://github.com/monorepojs/monorepojs/commit/2088c3c))
+
+
+
+
+
 ## [0.3.21](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.20...@monorepojs/scripts@0.3.21) (2019-10-11)
 
 

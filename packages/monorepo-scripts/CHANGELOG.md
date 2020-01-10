@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.23](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.22...@monorepojs/scripts@0.3.23) (2020-01-10)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo ([447acd9](https://github.com/monorepojs/monorepojs/commit/447acd9))
+* **deps:** update dependency babel-plugin-named-asset-import to v0.3.5 ([48f2bfa](https://github.com/monorepojs/monorepojs/commit/48f2bfa))
+* **deps:** update dependency babel-preset-react-app to v9.1.0 ([ef91385](https://github.com/monorepojs/monorepojs/commit/ef91385))
+* **deps:** update dependency bfj to v7.0.2 ([93c4a0a](https://github.com/monorepojs/monorepojs/commit/93c4a0a))
+* **deps:** update dependency chalk to v3 ([cc7530b](https://github.com/monorepojs/monorepojs/commit/cc7530b))
+* **deps:** update dependency css-loader to v3.4.1 ([829c1ee](https://github.com/monorepojs/monorepojs/commit/829c1ee))
+* **deps:** update dependency css-loader to v3.4.2 ([ef74922](https://github.com/monorepojs/monorepojs/commit/ef74922))
+* **deps:** update dependency dotenv to v8.2.0 ([e0202f1](https://github.com/monorepojs/monorepojs/commit/e0202f1))
+* **deps:** update dependency eslint to v6.8.0 ([060e151](https://github.com/monorepojs/monorepojs/commit/060e151))
+* **deps:** update dependency eslint-plugin-flowtype to v4.5.3 ([8dd2eae](https://github.com/monorepojs/monorepojs/commit/8dd2eae))
+* **deps:** update dependency html-webpack-plugin to v4.0.0-beta.11 ([ce44452](https://github.com/monorepojs/monorepojs/commit/ce44452))
+* **deps:** update dependency terser-webpack-plugin to v2.3.2 ([204719f](https://github.com/monorepojs/monorepojs/commit/204719f))
+* **deps:** update dependency typescript to v3.7.4 ([b9fb1fe](https://github.com/monorepojs/monorepojs/commit/b9fb1fe))
+* **deps:** update dependency webpack to v4.41.5 ([4ad22bf](https://github.com/monorepojs/monorepojs/commit/4ad22bf))
+* **deps:** update dependency webpack-dev-server to v3.10.1 ([0b9c314](https://github.com/monorepojs/monorepojs/commit/0b9c314))
+* **deps:** update react monorepo ([87b7f5d](https://github.com/monorepojs/monorepojs/commit/87b7f5d))
+* **deps:** update typescript-eslint monorepo to v2.15.0 ([442c88b](https://github.com/monorepojs/monorepojs/commit/442c88b))
+
+
+
+
+
 ## [0.3.22](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.21...@monorepojs/scripts@0.3.22) (2020-01-08)
 
 

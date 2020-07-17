@@ -98,10 +98,20 @@ const findPkgs = (rootPath, globPatterns) => {
  */
 function getPkgsAliases(allPkgs, allSrcPkgs) {
   return allPkgs.reduce((aliases, pkgPath) => {
-    const { name, src, lib } = getMonorepoConfig(pkgPath)
+    const { alias, name, src, lib } = getMonorepoConfig(pkgPath)
     const isSrcPkg = allSrcPkgs.includes(pkgPath)
     const target = isSrcPkg ? src : lib
     const pkgAlias = path.join(name, target)
+
+    if (alias) {
+      console.log(
+        'monorepojs: package',
+        name,
+        'is aliased as',
+        alias,
+        'and must be imported using the alias from all code'
+      )
+    }
 
     if (isEnvTest) {
       /**
@@ -110,12 +120,11 @@ function getPkgsAliases(allPkgs, allSrcPkgs) {
        * capture everything after the name (in the capture group) then
        * we want to pass it the capture group to the end of the transformation.
        */
-      aliases[`^${name.replace('/', '/')}($|/.*)`] = `${pkgAlias.replace(
-        '/',
-        '/'
-      )}$1`
+      aliases[
+        `^${(alias || name).replace('/', '/')}($|/.*)`
+      ] = `${pkgAlias.replace('/', '/')}$1`
     } else {
-      aliases[name] = pkgAlias
+      aliases[alias || name] = pkgAlias
     }
     return aliases
   }, {})

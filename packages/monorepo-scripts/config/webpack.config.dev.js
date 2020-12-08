@@ -232,6 +232,9 @@ module.exports = {
             include: paths.srcPaths,
             exclude: [/[/\\\\]node_modules[/\\\\]/],
             loader: require.resolve('babel-loader'),
+            resolve: {
+              extensions: ['.tsx', '.ts', '.js', '.jsx']
+            },
             options: {
               customize: require.resolve(
                 'babel-preset-react-app/webpack-overrides'

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.24](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.23...@monorepojs/scripts@0.3.24) (2020-12-08)
+
+
+### Bug Fixes
+
+* **webpack.config.*.js:** fix typescript resolution ([773c05f](https://github.com/monorepojs/monorepojs/commit/773c05f))
+* **webpack.config.dev.js:** stop eslint plugin from preventing recompilation on development ([3e997bc](https://github.com/monorepojs/monorepojs/commit/3e997bc))
+
+
+
+
+
 ## [0.3.23](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.22...@monorepojs/scripts@0.3.23) (2020-01-10)
 
 

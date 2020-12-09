@@ -422,15 +422,8 @@ module.exports = {
     useTypeScript &&
       new ForkTsCheckerWebpackPlugin({
         typescript: resolve.sync('typescript', {
-          basedir: paths.appNodeModules,
-          diagnosticOptions: {
-            semantic: true,
-            syntactic: true
-          }
+          basedir: paths.appNodeModules
         }),
-        issue: {
-          scope: 'all'
-        },
         async: false,
         checkSyntacticErrors: true,
         tsconfig: paths.appTsConfig,

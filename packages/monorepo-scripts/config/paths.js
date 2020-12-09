@@ -16,7 +16,7 @@ const url = require('url')
 // https://github.com/facebook/create-react-app/issues/637
 const appDirectory = fs.realpathSync(process.cwd())
 const resolveApp = relativePath => path.resolve(appDirectory, relativePath)
-
+console.log(resolveApp('src'))
 const envPublicUrl = process.env.PUBLIC_URL
 
 function ensureSlash(inputPath, needsSlash) {
@@ -47,14 +47,14 @@ function getServedPath(appPackageJson) {
 }
 
 const moduleFileExtensions = [
-  'web.mjs',
-  'mjs',
-  'web.js',
-  'js',
   'web.ts',
   'ts',
   'web.tsx',
   'tsx',
+  'web.mjs',
+  'mjs',
+  'web.js',
+  'js',
   'json',
   'web.jsx',
   'jsx'
@@ -102,10 +102,31 @@ const getPathOpts = appPackageJson => {
   }
 }
 
-//const appPackageJson = resolveApp('package.json');
+// config after eject: we're in ./config/
+module.exports = {
+  dotenv: resolveApp('.env'),
+  appPath: resolveApp('.'),
+  appBuild: resolveApp('build'),
+  appPublic: resolveApp('public'),
+  appHtml: resolveApp('public/index.html'),
+  appIndexJs: resolveModule(resolveApp, 'src/index'),
+  appPackageJson: resolveApp('package.json'),
+  appSrc: resolveApp('src'),
+  appTsConfig: resolveApp('tsconfig.json'),
+  yarnLockFile: resolveApp('yarn.lock'),
+  testsSetup: resolveModule(resolveApp, 'src/setupTests'),
+  proxySetup: resolveApp('src/setupProxy.js'),
+  appNodeModules: resolveApp('node_modules'),
+  publicUrl: getPublicUrl(resolveApp('package.json')),
+  servedPath: getServedPath(resolveApp('package.json'))
+}
+
+// @remove-on-eject-begin
+const resolveOwn = relativePath => path.resolve(__dirname, '..', relativePath)
+
 let pathOpts = getPathOpts(resolveApp('package.json'))
 
-// config after eject: we're in ./config/
+// config before eject: we're in ./node_modules/react-scripts/config/
 module.exports = {
   dotenv: resolveApp('.env'),
   appPath: resolveApp('.'),
@@ -123,8 +144,15 @@ module.exports = {
   proxySetup: resolveApp('src/setupProxy.js'),
   appNodeModules: resolveApp('node_modules'),
   publicUrl: getPublicUrl(resolveApp('package.json')),
-  servedPath: getServedPath(resolveApp('package.json'))
+  servedPath: getServedPath(resolveApp('package.json')),
+  // These properties only exist before ejecting:
+  ownPath: resolveOwn('.'),
+  ownNodeModules: resolveOwn('node_modules'), // This is empty on npm 3
+  appTypeDeclarations: resolveApp('src/react-app-env.d.ts'),
+  ownTypeDeclarations: resolveOwn('lib/react-app.d.ts')
 }
+
+// @remove-on-eject-end
 
 module.exports.moduleFileExtensions = moduleFileExtensions
 

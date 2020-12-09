@@ -538,7 +538,11 @@ module.exports = {
     fs.existsSync(paths.appTsConfig) &&
       new ForkTsCheckerWebpackPlugin({
         typescript: resolve.sync('typescript', {
-          basedir: paths.appNodeModules
+          basedir: paths.appNodeModules,
+          diagnosticOptions: {
+            semantic: true,
+            syntactic: true
+          }
         }),
         async: false,
         checkSyntacticErrors: true,
@@ -552,7 +556,6 @@ module.exports = {
           '!src/setupTests.*'
         ],
         watch: paths.appSrc,
-        silent: true,
         formatter: typescriptFormatter
       })
   ].filter(Boolean),

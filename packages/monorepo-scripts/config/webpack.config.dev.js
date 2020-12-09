@@ -153,11 +153,9 @@ module.exports = {
     // https://github.com/facebook/create-react-app/issues/290
     // `web` extension prefixes have been added for better support
     // for React Native Web.
-    extensions: paths.jsExts.concat(
-      paths.moduleFileExtensions
-        .map(ext => `.${ext}`)
-        .filter(ext => useTypeScript || !ext.includes('ts'))
-    ),
+    extensions: paths.moduleFileExtensions
+      .map(ext => `.${ext}`)
+      .filter(ext => useTypeScript || !ext.includes('ts')),
     alias: {
       // Support React Native Web
       // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
@@ -419,26 +417,31 @@ module.exports = {
       publicPath: publicPath
     }),
     // TypeScript type checking
-    useTypeScript &&
-      new ForkTsCheckerWebpackPlugin({
-        typescript: resolve.sync('typescript', {
-          basedir: paths.appNodeModules
-        }),
-        async: true,
-        checkSyntacticErrors: true,
-        tsconfig: paths.appTsConfig,
-        reportFiles: [
-          '**',
-          '!**/*.json',
-          '!**/__tests__/**',
-          '!**/?(*.)(spec|test).*',
-          '!src/setupProxy.js',
-          '!src/setupTests.*'
-        ],
-        watch: paths.appSrc,
-        silent: true,
-        formatter: typescriptFormatter
-      })
+    new ForkTsCheckerWebpackPlugin({
+      typescript: resolve.sync('typescript', {
+        basedir: paths.appNodeModules,
+        diagnosticOptions: {
+          semantic: true,
+          syntactic: true
+        }
+      }),
+      issue: {
+        scope: 'all'
+      },
+      async: false,
+      checkSyntacticErrors: true,
+      tsconfig: paths.appTsConfig,
+      reportFiles: [
+        '**',
+        '!**/*.json',
+        '!**/__tests__/**',
+        '!**/?(*.)(spec|test).*',
+        '!src/setupProxy.js',
+        '!src/setupTests.*'
+      ],
+      watch: paths.appSrc,
+      formatter: typescriptFormatter
+    })
   ].filter(Boolean),
 
   // Some libraries import Node modules but don't use them in the browser.

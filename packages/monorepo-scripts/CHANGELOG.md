@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.26](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.25...@monorepojs/scripts@0.3.26) (2020-12-09)
+
+
+### Bug Fixes
+
+* **verifytypescriptsetup.js:** revert changes ([1467cf5](https://github.com/monorepojs/monorepojs/commit/1467cf5))
+* additional cleanup ([c392752](https://github.com/monorepojs/monorepojs/commit/c392752))
+* cleanup ([24c7b4d](https://github.com/monorepojs/monorepojs/commit/24c7b4d))
+* fixes typescript support ([580c57e](https://github.com/monorepojs/monorepojs/commit/580c57e))
+* update webpack prod config ([2791954](https://github.com/monorepojs/monorepojs/commit/2791954))
+
+
+
+
+
 ## [0.3.25](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.23...@monorepojs/scripts@0.3.25) (2020-12-08)
 
 

@@ -32,7 +32,33 @@ module.exports = ({ config }) => {
     test: /\.(ts|tsx)$/,
     use: [
       {
-        loader: require.resolve('babel-loader')
+        loader: require.resolve('babel-loader'),
+        options: {
+          presets: [
+            [
+              '@babel/preset-env',
+              {
+                targets: '> 0.25%, not dead',
+                useBuiltIns: false,
+                modules: false,
+                exclude: ['transform-typeof-symbol']
+              }
+            ],
+            [
+              '@babel/preset-react',
+              {
+                useBuiltIns: true
+              }
+            ],
+            [
+              '@babel/preset-typescript',
+              {
+                isTSX: true,
+                allExtensions: true
+              }
+            ]
+          ]
+        }
       }
     ]
   })

@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.27...@monorepojs/scripts@0.4.0) (2020-12-23)
+
+
+### Bug Fixes
+
+* **webpack.config:** add typescript support to storybook ([1f665fc](https://github.com/monorepojs/monorepojs/commit/1f665fc))
+
+
+### Features
+
+* update storybook webpack and bump babel core ([f2a0609](https://github.com/monorepojs/monorepojs/commit/f2a0609))
+
+
+
+
+
 ## [0.3.27](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.3.25...@monorepojs/scripts@0.3.27) (2020-12-09)
 
 

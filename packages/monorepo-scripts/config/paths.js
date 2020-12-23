@@ -16,7 +16,6 @@ const url = require('url')
 // https://github.com/facebook/create-react-app/issues/637
 const appDirectory = fs.realpathSync(process.cwd())
 const resolveApp = relativePath => path.resolve(appDirectory, relativePath)
-
 const envPublicUrl = process.env.PUBLIC_URL
 
 function ensureSlash(inputPath, needsSlash) {
@@ -102,10 +101,11 @@ const getPathOpts = appPackageJson => {
   }
 }
 
-//const appPackageJson = resolveApp('package.json');
+// @remove-on-eject-begin
+const resolveOwn = relativePath => path.resolve(__dirname, '..', relativePath)
+
 let pathOpts = getPathOpts(resolveApp('package.json'))
 
-// config after eject: we're in ./config/
 module.exports = {
   dotenv: resolveApp('.env'),
   appPath: resolveApp('.'),
@@ -123,7 +123,12 @@ module.exports = {
   proxySetup: resolveApp('src/setupProxy.js'),
   appNodeModules: resolveApp('node_modules'),
   publicUrl: getPublicUrl(resolveApp('package.json')),
-  servedPath: getServedPath(resolveApp('package.json'))
+  servedPath: getServedPath(resolveApp('package.json')),
+  // These properties only exist before ejecting:
+  ownPath: resolveOwn('.'),
+  ownNodeModules: resolveOwn('node_modules'), // This is empty on npm 3
+  appTypeDeclarations: resolveApp('src/react-app-env.d.ts'),
+  ownTypeDeclarations: resolveOwn('lib/react-app.d.ts')
 }
 
 module.exports.moduleFileExtensions = moduleFileExtensions

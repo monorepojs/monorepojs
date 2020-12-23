@@ -552,7 +552,6 @@ module.exports = {
           '!src/setupTests.*'
         ],
         watch: paths.appSrc,
-        silent: true,
         formatter: typescriptFormatter
       })
   ].filter(Boolean),

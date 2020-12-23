@@ -424,7 +424,7 @@ module.exports = {
         typescript: resolve.sync('typescript', {
           basedir: paths.appNodeModules
         }),
-        async: true,
+        async: false,
         checkSyntacticErrors: true,
         tsconfig: paths.appTsConfig,
         reportFiles: [
@@ -436,7 +436,6 @@ module.exports = {
           '!src/setupTests.*'
         ],
         watch: paths.appSrc,
-        silent: true,
         formatter: typescriptFormatter
       })
   ].filter(Boolean),

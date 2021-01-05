@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.5.2...@monorepojs/scripts@0.7.0) (2021-01-05)
+
+
+### Bug Fixes
+
+* **typescript:** some fixes for typescript support + unit tests ([6047aee](https://github.com/monorepojs/monorepojs/commit/6047aee8a6a5e73de06221a10052fceeb9c92ba6))
+
+
+### Features
+
+* remove isolatedModules replacement ([f3b5928](https://github.com/monorepojs/monorepojs/commit/f3b5928d6761c2cff794a7c185e078c15958aac9))
+* remove ts limition ([100775c](https://github.com/monorepojs/monorepojs/commit/100775c4538ab9f09686a84b00565b87d134528f))
+
+
+
+
+
 # [0.6.0](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.5.2...@monorepojs/scripts@0.6.0) (2021-01-05)
 
 

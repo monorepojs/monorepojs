@@ -63,6 +63,7 @@ module.exports = (resolve, rootDir, isEjecting) => {
     moduleNameMapper: {
       '^react-native$': 'react-native-web',
       '^.+\\.module\\.(css|sass|scss)$': 'identity-obj-proxy',
+      '^scheduler$': 'scheduler/unstable_mock.js',
       ...paths.monorepoPackageAliases
     },
     moduleFileExtensions: [...paths.moduleFileExtensions, 'node'].filter(

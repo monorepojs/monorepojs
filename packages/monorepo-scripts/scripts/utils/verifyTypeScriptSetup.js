@@ -113,7 +113,6 @@ function verifyTypeScriptSetup() {
       reason: 'to match webpack resolution'
     },
     resolveJsonModule: { value: true, reason: 'to match webpack loader' },
-    isolatedModules: { value: true, reason: 'implementation limitation' },
     jsx: {
       parsedValue: ts.JsxEmit.Preserve,
       value: 'preserve',

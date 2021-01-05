@@ -1,6 +1,6 @@
 {
   "name": "@monorepojs/scripts",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "description": "Configuration and scripts for MonorepoJS",
   "repository": "monorepojs/monorepojs",
   "homepage": "https://monorepo-documentation.firebaseapp.com/docs/packages/monorepo-scripts/",

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.7.0...@monorepojs/scripts@0.9.0) (2021-01-06)
+
+
+### Features
+
+* add babel plugin to webpack config ([61ed0d5](https://github.com/monorepojs/monorepojs/commit/61ed0d5ff845e382fad82647c6fb58f4ed927722))
+
+
+
+
+
 # [0.8.0](https://github.com/monorepojs/monorepojs/compare/@monorepojs/scripts@0.7.0...@monorepojs/scripts@0.8.0) (2021-01-06)
 
 

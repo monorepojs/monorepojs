@@ -1,6 +1,6 @@
 {
   "name": "@monorepojs/tools",
-  "version": "0.2.16",
+  "version": "0.2.17",
   "description": "Opinionated developer tooling for MonorepoJS",
   "repository": "monorepojs/monorepojs",
   "homepage": "https://monorepo-documentation.firebaseapp.com/docs/packages/monorepo-tools/",
@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "babel-eslint": "10.0.3",
-    "eslint": "6.8.0",
+    "eslint": "7.15.0",
     "eslint-config-prettier": "6.9.0",
     "eslint-config-react-app": "5.0.2",
     "eslint-plugin-flowtype": "4.5.3",
